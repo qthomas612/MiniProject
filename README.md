@@ -7,6 +7,6 @@ Prerequisites:
   -https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump
 3) SPADES
   -https://cab.spbu.ru/files/release3.15.4/manual.html#sec3.1
-4) Prokka
+4) GeneMarkS-2
 5) TopHat
 6) CuffLinks
