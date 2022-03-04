@@ -51,4 +51,4 @@ A results folder will be created in whichever directory you are running the prog
 8.  tophat_out (directory for outputfiles of tophat2)
 
 # Sample Data
-Sample SRA files were too large to be upladed to github. Instead run the sample.py file to fetch SRA files and download them into a folder in your working directory called sampleData.
+Sample SRA files were too large to be upladed to github. Instead run the sample.py file to fetch SRA files and download them into a folder in your working directory called sampleData. Ecoli.fasta is a required dataset for the program put into the results folder. The program will detect the results folder being present and will not overwrite if you have it in your working directory.
