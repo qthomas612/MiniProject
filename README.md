@@ -39,4 +39,10 @@ See https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7 for exporting 
 
 # Output:
 A results folder will be created in whichever directory you are running the program from. Below is a list of files you should see in your output directory:
-1. 
+1.  annotated.fasta (original Ecoli genome)
+2.  annotatedRef.*.bt2 (bowtie2 index)
+3.  ecoliRef files (generated from making blast database)
+4.  all SPAdes output, most notably scaffolds.fasta and contigs.fasta
+5.  largeContigs.fasta (filtered contigs)
+6.  proSeq (geneMarkS2 coding regions)
+7.  results.log (all relevant and important information regarding the pipeline will be output here)
