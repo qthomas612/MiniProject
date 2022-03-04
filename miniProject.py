@@ -46,6 +46,11 @@ This step takes a long time. My personal computer has 8 processors so when I thr
 spadesPath = currDir + '/SPAdes-3.15.4-Darwin/bin'
 spadesCom = spadesPath + '/spades.py'
 mySpadesCom = 'spades.py -o ./results -s SRR8185310.fastq -t 7'
+
+#if the program has issues finding the fastq file you can uncomment this line of code 
+#for some reason mine worked 50/50
+#os.system('cp ./results/SRR8185310.fastq ./')
+
 #hardcode
 #assembly = subprocess.run([spadesCom, '-o', './results', '-s', 'SRR8185310.fastq', '-t', ' 7'])
 #realcode 
