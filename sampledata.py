@@ -1,3 +1,6 @@
+#Sample SRA files were too large to be upladed to github. Instead run the sample.py file to fetch SRA files 
+#and download them into a folder in your working directory called sampleData.
+
 import os
 import sys
 
