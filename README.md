@@ -21,6 +21,7 @@ GeneMarkS-2
 
 TopHat2
 -https://ccb.jhu.edu/software/tophat/manual.shtml
+* It is worth noting that when I ran this on my Mac I had to edit the first line in `tophat` from `#!/usr/bin/env python` to `#!/usr/bin/env python2`
 
 Bowtie2
 -http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
@@ -36,3 +37,5 @@ See https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7 for exporting 
 
 
 # Output:
+A results folder will be created in whichever directory you are running the program from. Below is a list of files you should see in your output directory:
+1. 
