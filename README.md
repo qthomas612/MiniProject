@@ -7,8 +7,9 @@ This program will retrieve the reads from the resequencing of the K-12 E. coli s
 
 
 
+# Prerequisites: 
 
-# Prerequisites: This python wrapper uses publicly available software tools; you must download and install these tools in your home directory and export them to your path. 
+This python wrapper uses publicly available software tools; you must download and install these tools in your home directory and export them to your path. 
 
 SRA-toolkit 
 -https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump
