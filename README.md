@@ -46,3 +46,6 @@ A results folder will be created in whichever directory you are running the prog
 5.  largeContigs.fasta (filtered contigs)
 6.  proSeq (geneMarkS2 coding regions)
 7.  results.log (all relevant and important information regarding the pipeline will be output here)
+
+#Sample Data
+Sample SRA files were too large to be upladed to github. Instead run the sample.py file to fetch SRA files and download them into a folder in your working directory called sampleData.
