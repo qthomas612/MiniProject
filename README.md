@@ -28,7 +28,7 @@ CuffLinks
 
 Export path to each binary in your bash_profile.
 
-Ex. export PATH="your-dir:$PATH"
+Ex. `export PATH="your-dir:$PATH"`
 
 See https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7 for exporting path in different operating systems.
 
