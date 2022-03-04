@@ -147,7 +147,7 @@ blastDBPath = currDir+'/ncbi-blast-2.12.0+/bin/makeblastdb'
 #makeDB = subprocess.run([blastDBPath, '-in', 'Ecoli.fasta', '-out', './results/ecoliRef', 
 #                         '-title', 'ecoliRef', '-dbtype', 'prot'])
 #realcode
-makeDB = os.system('makeblastdb -in Ecoli.fasta -out ./results/ecoliRef -title ecoliRef -dbtype prot')
+makeDB = os.system('makeblastdb -in ./results/Ecoli.fasta -out ./results/ecoliRef -title ecoliRef -dbtype prot')
 
 
 blastQpath = currDir+'/ncbi-blast-2.12.0+/bin/'
