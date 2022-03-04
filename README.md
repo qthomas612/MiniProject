@@ -3,7 +3,9 @@ This project is for Comp483
 
 # Description:
 
-This program will take 
+This program will retrieve the reads from the resequencing of the K-12 E. coli strain and assemble its genome using SPAdes. After some minor filtering, this program then uses GeneMarkS2 to predict coding regions from our assembly. These coding regions are blasted against an established E coli database to annotate the genome. Coding regions are compared to the original E. coli sequencing project.  
+
+
 
 
 # Prerequisites: This python wrapper uses publicly available software tools; you must download and install these tools in your home directory and export them to your path. 
