@@ -49,7 +49,7 @@ mySpadesCom = 'spades.py -o ./results -s SRR8185310.fastq -t 7'
 #hardcode
 #assembly = subprocess.run([spadesCom, '-o', './results', '-s', 'SRR8185310.fastq', '-t', ' 7'])
 #realcode 
-assembly = os.system('spades.py -o ./results -s SRR8185310.fastq -t 7')
+assembly = os.system('spades.py -o ./results -s ./results/SRR8185310.fastq -t 7')
 outfile.write('Running SPAdes.... ')
 outfile.write(mySpadesCom)
 outfile.write('\n')
